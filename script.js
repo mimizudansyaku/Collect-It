@@ -11,7 +11,7 @@ var itemImages = null; // アイテムイメージ配列
 // ・初期化処理
 function initial() {
   bgImage = new Image();
-  bgImage.src = 'images/Background.png';
+  bgImage.src = 'images/background.png';
   bgImage.onload = function() {
     drawBackground();
   }
